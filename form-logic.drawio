@@ -1,87 +1,192 @@
-<mxfile host="www.draw.io" modified="2019-12-05T03:12:30.448Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="u1kFHIbNVzncpLjFKEIg" version="12.3.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-05T07:23:15.515Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="PBEiSZfCNsL8zrmib0ua" version="12.3.6" type="github" pages="1">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1426" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="2" value="ui-admin" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry">
+          <mxGeometry x="165" y="128" width="280" height="822" as="geometry">
             <mxRectangle x="164.5" y="128" width="80" height="23" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="5" target="7">
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="2" source="5" target="7">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
           <mxGeometry x="100" y="40" width="30" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="7" target="8">
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;fillColor=#f8cecc;" edge="1" parent="2" source="7" target="8">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="7" value="新建问卷" style="" parent="2" vertex="1">
           <mxGeometry x="60" y="110" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="8" target="10">
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="2" source="8" target="10">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="8" value="编辑问卷" style="" parent="2" vertex="1">
           <mxGeometry x="60" y="220" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="10" target="8y1qnMpc8c9lvQVwj4XD-43">
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="2" source="10" target="8y1qnMpc8c9lvQVwj4XD-159">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="10" value="发布问卷" style="" parent="2" vertex="1">
+        <mxCell id="10" value="保存问卷" style="" parent="2" vertex="1">
           <mxGeometry x="60" y="325" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-43" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="2">
-          <mxGeometry x="100" y="430" width="30" height="30" as="geometry"/>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-159" value="复制问卷链接" style="" vertex="1" parent="2">
+          <mxGeometry x="60" y="432" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="3" value="ui-publish" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="444.5" y="128" width="280" height="570" as="geometry"/>
-        </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3" source="13" target="15">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="13" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="3" vertex="1">
-          <mxGeometry x="124.5" y="42" width="30" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3" source="15" target="16">
-          <mxGeometry relative="1" as="geometry"/>
+          <mxGeometry x="445" y="128" width="280" height="822" as="geometry"/>
         </mxCell>
         <mxCell id="15" value="打开问卷" style="" parent="3" vertex="1">
-          <mxGeometry x="84.5" y="112" width="110" height="50" as="geometry"/>
+          <mxGeometry x="85" y="432" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="16" target="18">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="16" value="下一题" style="" parent="3" vertex="1">
-          <mxGeometry x="84.5" y="218.5" width="110" height="50" as="geometry"/>
+          <mxGeometry x="85" y="538.5" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3" source="18" target="8y1qnMpc8c9lvQVwj4XD-41">
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="15" target="16">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="18" value="提交问卷" style="" parent="3" vertex="1">
-          <mxGeometry x="84.5" y="324.5" width="110" height="50" as="geometry"/>
+          <mxGeometry x="85" y="648" width="110" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="8y1qnMpc8c9lvQVwj4XD-41" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="3">
-          <mxGeometry x="124.5" y="432" width="30" height="30" as="geometry"/>
+          <mxGeometry x="125" y="752" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="3" source="18" target="8y1qnMpc8c9lvQVwj4XD-41">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="4" value="middleware" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry"/>
+          <mxGeometry x="725" y="128" width="280" height="822" as="geometry"/>
         </mxCell>
         <mxCell id="8y1qnMpc8c9lvQVwj4XD-71" value="获取问卷信息" style="" vertex="1" parent="4">
-          <mxGeometry x="85" y="112" width="110" height="50" as="geometry"/>
+          <mxGeometry x="85" y="432" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-79" value="保存答案" style="" vertex="1" parent="4">
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-79" value="保存问卷" style="" vertex="1" parent="4">
           <mxGeometry x="85" y="325" width="110" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="584" y="450" as="targetPoint"/>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-166" value="保存答案" style="" vertex="1" parent="4">
+          <mxGeometry x="85" y="648" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="8y1qnMpc8c9lvQVwj4XD-159" target="15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-162" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="10" target="8y1qnMpc8c9lvQVwj4XD-79">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-164" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="15" target="8y1qnMpc8c9lvQVwj4XD-71">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-167" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="18" target="8y1qnMpc8c9lvQVwj4XD-166">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" source="8y1qnMpc8c9lvQVwj4XD-183" target="8y1qnMpc8c9lvQVwj4XD-185" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-171" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" source="8y1qnMpc8c9lvQVwj4XD-182" target="8y1qnMpc8c9lvQVwj4XD-194" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-173" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" source="8y1qnMpc8c9lvQVwj4XD-189" target="8y1qnMpc8c9lvQVwj4XD-195" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-174" value="ui-admin" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="1160" width="280" height="822" as="geometry">
+            <mxRectangle x="164.5" y="128" width="80" height="23" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="8y1qnMpc8c9lvQVwj4XD-71">
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="8y1qnMpc8c9lvQVwj4XD-174" source="8y1qnMpc8c9lvQVwj4XD-176" target="8y1qnMpc8c9lvQVwj4XD-178">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="8y1qnMpc8c9lvQVwj4XD-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="8y1qnMpc8c9lvQVwj4XD-79">
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-176" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-174">
+          <mxGeometry x="100" y="40" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;fillColor=#f8cecc;" edge="1" parent="8y1qnMpc8c9lvQVwj4XD-174" source="8y1qnMpc8c9lvQVwj4XD-178" target="8y1qnMpc8c9lvQVwj4XD-180">
           <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-178" value="新建问卷" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-174">
+          <mxGeometry x="60" y="110" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="8y1qnMpc8c9lvQVwj4XD-174" source="8y1qnMpc8c9lvQVwj4XD-180" target="8y1qnMpc8c9lvQVwj4XD-182">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-180" value="编辑问卷" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-174">
+          <mxGeometry x="60" y="220" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="8y1qnMpc8c9lvQVwj4XD-174" source="8y1qnMpc8c9lvQVwj4XD-182" target="8y1qnMpc8c9lvQVwj4XD-183">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-182" value="保存问卷" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-174">
+          <mxGeometry x="60" y="325" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-183" value="复制问卷链接" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-174">
+          <mxGeometry x="60" y="432" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-184" value="ui-publish" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="1160" width="280" height="822" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-185" value="打开问卷" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-184">
+          <mxGeometry x="85" y="432" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="8y1qnMpc8c9lvQVwj4XD-184" source="8y1qnMpc8c9lvQVwj4XD-187" target="8y1qnMpc8c9lvQVwj4XD-189">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-187" value="下一题" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-184">
+          <mxGeometry x="85" y="538.5" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="8y1qnMpc8c9lvQVwj4XD-184" source="8y1qnMpc8c9lvQVwj4XD-185" target="8y1qnMpc8c9lvQVwj4XD-187">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-189" value="提交问卷" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-184">
+          <mxGeometry x="85" y="648" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-190" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-184">
+          <mxGeometry x="125" y="752" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="8y1qnMpc8c9lvQVwj4XD-184" source="8y1qnMpc8c9lvQVwj4XD-189" target="8y1qnMpc8c9lvQVwj4XD-190">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-192" value="middleware" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="727.5" y="1160" width="280" height="822" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-197" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#000000;" edge="1" parent="8y1qnMpc8c9lvQVwj4XD-192" source="8y1qnMpc8c9lvQVwj4XD-194" target="8y1qnMpc8c9lvQVwj4XD-196">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-194" value="保存问卷" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-192">
+          <mxGeometry x="30" y="330" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-195" value="保存答案" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-192">
+          <mxGeometry x="85" y="648" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-196" value="逻辑预计算" style="dashed=1;" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-192">
+          <mxGeometry x="155" y="330" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-198" value="获取下一题题目信息" style="" vertex="1" parent="8y1qnMpc8c9lvQVwj4XD-192">
+          <mxGeometry x="85" y="489" width="145" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-199" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#000000;" edge="1" parent="1" source="8y1qnMpc8c9lvQVwj4XD-187" target="8y1qnMpc8c9lvQVwj4XD-198">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-200" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#000000;" edge="1" parent="1" source="8y1qnMpc8c9lvQVwj4XD-185" target="8y1qnMpc8c9lvQVwj4XD-198">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-201" value="目前ui-admin、ui-publish、middleware三端交互流程：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="108" width="310" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-202" value="弊端分析：&lt;br&gt;1.重前端：ui-publish端答题时logic功能逻辑和用户交互功能逻辑交织在一起，导致ui-publish端整体逻辑太重&lt;br&gt;2.由于1导致了logic功能不易扩展、不易维护&lt;br&gt;3.由于1导致了logic功能与ui-publish端耦合性大，在做多端应用时logic功能无法进行复用&lt;br&gt;4.ui-publish端与alpaca的耦合性太大，无法轻松切换渲染引擎" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="950" width="580" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-204" value="优化思路：&lt;br&gt;将ui-publish端的用户交互功能逻辑和logic功能逻辑拆分开来，ui-pulish端只关注用户交互功能逻辑，将logic功能逻辑往后移" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="1120" width="660" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-208" value="此设计带来的好处：&lt;br&gt;&lt;div&gt;&lt;span&gt;1.ui-pulish只关注用户交互过程和渲染后端返回的问卷配置包&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2.替换alpaca渲染引擎变得简单&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;3.可通过相关设计来实现定制逻辑、插拔式的逻辑&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;4.在做多端应用时，逻辑模块可复用&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="1990" width="330" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="8y1qnMpc8c9lvQVwj4XD-209" value="此设计可能存在的难点：&lt;br&gt;&lt;div&gt;&lt;span&gt;1.用户每次点击下一题会有1次IO等待时间，需要优化logic功能能快速运算出结果&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2.用户答题全程只能在网络环境下进行。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="2080" width="440" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
