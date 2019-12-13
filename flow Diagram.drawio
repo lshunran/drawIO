@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-13T03:50:32.361Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="DsVhEK5bCt_8xFg9XLzF" version="12.4.1" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-13T06:09:56.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="iI_1U77zdHFc5x19ry2E" version="12.4.1" type="github" pages="1">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1426" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -10,20 +10,11 @@
         <mxCell id="3" value="需求分析，&lt;br&gt;确定上下游系统" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="135" width="159" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="I-QZj3Zi05qYfMlQOKPq-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="I-QZj3Zi05qYfMlQOKPq-59">
+        <mxCell id="I-QZj3Zi05qYfMlQOKPq-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="I-QZj3Zi05qYfMlQOKPq-87">
           <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="4" value="使用&lt;br&gt;BaseImporterAdapter&lt;br&gt;类" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240.5" y="620" width="159" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="5" value="实现适配者接口&lt;br&gt;IExporterAdoptee" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="290" width="159" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="I-QZj3Zi05qYfMlQOKPq-58" value="需要" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="I-QZj3Zi05qYfMlQOKPq-56">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="6" value="在解析metaData前，&lt;br&gt;是否需要对metaData进行进一步操作" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="205.5" y="450" width="229" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -31,34 +22,14 @@
         <mxCell id="8" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="3" target="5" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="9" style="entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="5" target="6" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="12" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;fontColor=#001933;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="6" target="4" edge="1">
-          <mxGeometry width="100" height="100" as="geometry">
-            <mxPoint y="100" as="sourcePoint"/>
-            <mxPoint x="100" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="I-QZj3Zi05qYfMlQOKPq-57" value="不需要" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint y="-11" as="offset"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="34" target="40">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="34" value="使用&lt;br&gt;BaseConnector&lt;br&gt;类" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240.5" y="1520" width="159" height="80" as="geometry"/>
+          <mxGeometry x="240.5" y="1340" width="159" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="40" value="结束" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="1670" width="120" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="I-QZj3Zi05qYfMlQOKPq-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I-QZj3Zi05qYfMlQOKPq-56" target="I-QZj3Zi05qYfMlQOKPq-59">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="I-QZj3Zi05qYfMlQOKPq-56" value="继承&lt;br&gt;BaseImporterAdapter&lt;br&gt;并重写load()" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="775" width="159" height="80" as="geometry"/>
+          <mxGeometry x="260" y="1490" width="120" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I-QZj3Zi05qYfMlQOKPq-59" target="I-QZj3Zi05qYfMlQOKPq-62">
           <mxGeometry relative="1" as="geometry"/>
@@ -77,19 +48,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-59" value="metaData是否是JSON字符串" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="205" y="770" width="229" height="90" as="geometry"/>
+          <mxGeometry x="205" y="590" width="229" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I-QZj3Zi05qYfMlQOKPq-62" target="I-QZj3Zi05qYfMlQOKPq-68">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-62" value="使用&lt;br&gt;JSONStringBaseParser&lt;br&gt;类" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240.5" y="980" width="159" height="80" as="geometry"/>
+          <mxGeometry x="240.5" y="800" width="159" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I-QZj3Zi05qYfMlQOKPq-63" target="I-QZj3Zi05qYfMlQOKPq-68">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-63" value="继承&lt;br&gt;BaseParser&lt;br&gt;并重写parseMetaData()" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="930" width="159" height="80" as="geometry"/>
+          <mxGeometry x="420" y="750" width="159" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I-QZj3Zi05qYfMlQOKPq-68" target="I-QZj3Zi05qYfMlQOKPq-74">
           <mxGeometry relative="1" as="geometry"/>
@@ -103,25 +74,31 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-68" value="下游系统是否是想应·名单模块" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="205.5" y="1120" width="229" height="90" as="geometry"/>
+          <mxGeometry x="205.5" y="940" width="229" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="I-QZj3Zi05qYfMlQOKPq-73" target="34">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-73" value="使用&lt;br&gt;ContactsFieldsMapper&lt;br&gt;类" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240.5" y="1370" width="159" height="80" as="geometry"/>
+          <mxGeometry x="240.5" y="1190" width="159" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="I-QZj3Zi05qYfMlQOKPq-74" target="I-QZj3Zi05qYfMlQOKPq-79">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-74" value="继承&lt;br&gt;BaseFieldsMapper&lt;br&gt;并重写mapping()" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1320" width="159" height="80" as="geometry"/>
+          <mxGeometry x="420" y="1140" width="159" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I-QZj3Zi05qYfMlQOKPq-79" target="40">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="I-QZj3Zi05qYfMlQOKPq-79" value="继承&lt;br&gt;BaseConnector&lt;br&gt;并重写&lt;br&gt;importToDownstream()" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1520" width="159" height="80" as="geometry"/>
+          <mxGeometry x="420" y="1340" width="159" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="I-QZj3Zi05qYfMlQOKPq-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I-QZj3Zi05qYfMlQOKPq-87" target="I-QZj3Zi05qYfMlQOKPq-59">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="I-QZj3Zi05qYfMlQOKPq-87" value="继承&lt;br&gt;BaseImporterAdapter&lt;br&gt;如果需要可重写load()" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="450" width="159" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
